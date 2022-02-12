@@ -1,0 +1,48 @@
+html, body {
+    margin: 50px 25px;
+    padding: 0;
+    text-align: left;
+    background-color: rgb(29, 35, 51);
+    color: white;
+}
+
+#heading {
+    color: rgb(255, 255, 255);
+    font-size: 250%;
+}
+
+#heading span {
+    color: rgb(41, 196, 144);
+}
+
+p {
+    font-size: 120%;
+    color: gainsboro;
+}
+
+button {
+    background-color: rgb(41, 196, 144);
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: normal;
+    font-size: larger;
+    width: 250px;;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+hr {
+    border: 1px solid rgb(70, 82, 116);
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%
+}
