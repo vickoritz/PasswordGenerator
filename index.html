@@ -5,7 +5,7 @@
         <title>Password Generator</title>
     </head>
     <body>
-        <script src="index.pack.js"></script>
+        <script src="index.js"></script>
         <div>
             <h1 id="heading">Generate a <br><span>random password</span></h1>
             <p id="body">Never use an insecure password again</p>
@@ -18,8 +18,8 @@
         <div class="generated-passwords">
             <div class="row">
                 <div class="column"></div>
-                <p id="passwordOne">Password1</p>
-                <div class="column"></div>
+                <p id="passwordOne"></p>
+                <div class="column">Password1</div>
                 <p id="passwordTwo">Password2</p>
             </div>
             <div class="row">
@@ -27,7 +27,10 @@
                 <p id="passwordthree">Password3</p>
                 <div class="column"></div>
                 <p id="passwordFour">Password4</p>
-            </div>  
+            </div> 
+            <div>
+                <button onclick="lightMode()">Lightmode</button>
+            </div> 
         </div>
 
         

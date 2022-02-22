@@ -1,27 +1,33 @@
-html, body {
+body {
     margin: 50px 25px;
     padding: 0;
     text-align: left;
-    background-color: rgb(29, 35, 51);
-    color: white;
+    background-color: rgba(31, 41, 55, 1);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.light-mode {    
+    background-color: rgba(236, 253, 245, 1);
+    color: black;
 }
 
 #heading {
-    color: rgb(255, 255, 255);
     font-size: 250%;
-}
+}    
+
 
 #heading span {
-    color: rgb(41, 196, 144);
+    color: rgba(74, 223, 134, 1);
 }
 
 p {
     font-size: 120%;
-    color: gainsboro;
+    color: rgba(107, 114, 128, 1);
 }
 
 button {
-    background-color: rgb(41, 196, 144);
+    background-color: rgba(16, 185, 129, 1);
     border: none;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -36,7 +42,7 @@ button {
 }
 
 hr {
-    border: 1px solid rgb(70, 82, 116);
+    border: 1px solid rgba(47, 62, 83, 1);
 }
 
 .row {
