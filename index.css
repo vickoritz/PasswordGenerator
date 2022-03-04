@@ -41,6 +41,12 @@ button {
     margin-bottom: 2px;
 }
 
+.btn:hover {
+    background-color: rgb(13, 124, 87);
+    cursor: pointer;
+}
+
+
 hr {
     border: 1px solid rgba(47, 62, 83, 1);
 }
