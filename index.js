@@ -19,11 +19,11 @@ function generatePassword() {
     let forthItem = getRandomItem()
     let password = [firstItem, secondItem, thirdItem, forthItem]
     console.log(password)
-    passwordEl.textContent = password
+    passwordEl.textContent = password // TODO: why does this not write out in the html file the password generated?
 }
 
 
-// function renderPassword() {
+// function renderPassword() { // what was I thinking here...? To genereate a long string, then cap of whatever the user sets as password lenght?
 //     passwordEl.textContent = "Password " 
 //     for (let i = 0; i < password.length; i++) { //from array, get first instance (0), last defined as lenght, and concatinate (upp) with one when writing out from array
 //         passwordEl.textContent +=password[i] + ""
