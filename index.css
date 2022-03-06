@@ -95,7 +95,7 @@ hr {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: rgba(39, 53, 73, 1);
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -113,7 +113,7 @@ hr {
   }
 
   input:checked + .slider {
-    background-color: rgba(39, 53, 73, 1);
+    background-color: rgba(16, 185, 129, 1);
   }
   
   input:focus + .slider {
