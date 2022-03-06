@@ -17,7 +17,7 @@ function generatePassword() {
     let secondItem = getRandomItem()
     let thirdItem = getRandomItem()
     let forthItem = getRandomItem()
-    password = [firstItem, secondItem, thirdItem, forthItem]
+    password = [firstItem+secondItem+thirdItem+forthItem]
     console.log(password)
     passwordEl.textContent = password
     //passwordEl.textContent = "New password:" + password // TODO: why does this not write out in the html file the password generated?
