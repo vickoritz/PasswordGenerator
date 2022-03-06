@@ -16,7 +16,6 @@ body {
     font-size: 250%;
 }    
 
-
 #heading span {
     color: rgba(74, 223, 134, 1);
 }
@@ -46,7 +45,6 @@ button {
     cursor: pointer;
 }
 
-
 hr {
     border: 1px solid rgba(47, 62, 83, 1);
 }
@@ -56,8 +54,8 @@ hr {
 }
 
 .column {
-    flex: 50%
-
+    column-count: 2; 
+    column-gap: normal;
 }
 
 #password-one {
