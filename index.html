@@ -17,18 +17,21 @@
         <div class="generated-passwords">
             <div class="row">
                 <div class="column"></div>
-                <p id="password-one">Password 1</p>
+                <p class="pw-btn" id="password-one">...</p>
                 <div class="column"></div>
-                <p id="password-two">Password 2</p>
+                <p class="pw-btn" id="password-two">...</p>
             </div>
             <div class="row">
                 <div class="column"></div>
-                <p id="password-three">Password 3</p>
+                <p class="pw-btn" id="password-three">...</p>
                 <div class="column"></div>
-                <p id="password-four">Password 4</p>
+                <p class="pw-btn" id="password-four">...</p>
             </div> 
             <div>
-                <button class="btn" onclick="lightMode()">Light mode</button>
+                <label class="switch">
+                    <input type="checkbox" onclick="lightMode()">
+                    <span class="slider round"></span>
+                </label>
             </div> 
         </div>
     <script src="index.js"></script>
