@@ -5,22 +5,62 @@ function lightMode() {
 
 let items = ["A", "B", "C", "1", "2", "3"] // items to us to generate password
 let password = []
-let passwordEl = document.getElementById("password-one")
+let passwordOneEl = document.getElementById("password-one")
+let passwordTwoEl = document.getElementById("password-two")
+let passwordThreeEl = document.getElementById("password-three")
+let passwordFourEl = document.getElementById("password-four")
+
+
+function generatePasswords() {
+    firstPassword()
+    secondPassword()
+    thirdPassword()
+    forthPassword()
+}
 
 function getRandomItem() {
     let randomIndex = Math.floor( Math.random() * 6)
     return items[randomIndex]
 }
  
-function generatePassword() {
+function firstPassword() {
     let firstItem = getRandomItem()
     let secondItem = getRandomItem()
     let thirdItem = getRandomItem()
     let forthItem = getRandomItem()
     password = [firstItem+secondItem+thirdItem+forthItem]
     console.log(password)
-    passwordEl.textContent = password
-    //passwordEl.textContent = "New password:" + password // TODO: why does this not write out in the html file the password generated?
+    passwordOneEl.textContent = password
+}
+
+function secondPassword() {
+    let firstItem = getRandomItem()
+    let secondItem = getRandomItem()
+    let thirdItem = getRandomItem()
+    let forthItem = getRandomItem()
+    password = [firstItem+secondItem+thirdItem+forthItem]
+    console.log(password)
+    passwordTwoEl.textContent = password
+}
+
+function thirdPassword() {
+    let firstItem = getRandomItem()
+    let secondItem = getRandomItem()
+    let thirdItem = getRandomItem()
+    let forthItem = getRandomItem()
+    password = [firstItem+secondItem+thirdItem+forthItem]
+    console.log(password)
+    passwordThreeEl.textContent = password
+}
+
+function forthPassword() {
+    let firstItem = getRandomItem()
+    let secondItem = getRandomItem()
+    let thirdItem = getRandomItem()
+    let forthItem = getRandomItem()
+    password = [firstItem+secondItem+thirdItem+forthItem]
+    console.log(password)
+    passwordFourEl.textContent = password
 }
 
 // function renderPassword() {
