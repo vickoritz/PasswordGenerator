@@ -1,9 +1,14 @@
+// TODOs
+//1. Update array to hold all possible chars, incl numbers, special signs, a-z
+//2. 1-click copy password to clipboard
+//3. Add ability to set password lenght
+
 function lightMode() {
     var element = document.body;
     element.classList.toggle("light-mode")
 }
 
-let items = ["A", "B", "C", "1", "2", "3"] // items to us to generate password
+let items = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "^", "`", "|", "~"]  // items to us to generate password
 let password = []
 let passwordOneEl = document.getElementById("password-one")
 let passwordTwoEl = document.getElementById("password-two")
