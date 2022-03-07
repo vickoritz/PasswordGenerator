@@ -24,7 +24,7 @@ function generatePasswords() {
 }
 
 function getRandomItem() {
-    let randomIndex = Math.floor( Math.random() * 6)
+    let randomIndex = Math.floor( Math.random() * 6) //TODO: Update so it loops through all of the items in the array to generate password
     return items[randomIndex]
 }
  
