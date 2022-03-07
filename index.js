@@ -28,44 +28,32 @@ function getRandomItem() {
     return items[randomIndex]
 }
  
-function firstPassword() {
+function getNewPassword() {
     let firstItem = getRandomItem()
     let secondItem = getRandomItem()
     let thirdItem = getRandomItem()
     let forthItem = getRandomItem()
-    password = [firstItem+secondItem+thirdItem+forthItem]
+    return [firstItem+secondItem+thirdItem+forthItem]
+}
+
+function firstPassword() {
     console.log(password)
-    passwordOneEl.textContent = password
+    passwordOneEl.textContent = getNewPassword()
 }
 
 function secondPassword() {
-    let firstItem = getRandomItem()
-    let secondItem = getRandomItem()
-    let thirdItem = getRandomItem()
-    let forthItem = getRandomItem()
-    password = [firstItem+secondItem+thirdItem+forthItem]
     console.log(password)
-    passwordTwoEl.textContent = password
+    passwordTwoEl.textContent = getNewPassword()
 }
 
 function thirdPassword() {
-    let firstItem = getRandomItem()
-    let secondItem = getRandomItem()
-    let thirdItem = getRandomItem()
-    let forthItem = getRandomItem()
-    password = [firstItem+secondItem+thirdItem+forthItem]
     console.log(password)
-    passwordThreeEl.textContent = password
+    passwordThreeEl.textContent = getNewPassword()
 }
 
 function forthPassword() {
-    let firstItem = getRandomItem()
-    let secondItem = getRandomItem()
-    let thirdItem = getRandomItem()
-    let forthItem = getRandomItem()
-    password = [firstItem+secondItem+thirdItem+forthItem]
     console.log(password)
-    passwordFourEl.textContent = password
+    passwordFourEl.textContent = getNewPassword()
 }
 
 // function renderPassword() {
