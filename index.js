@@ -9,7 +9,6 @@ function lightMode() {
 
 let items = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "^", "`", "|", "~"]  // items to us to generate password
 let password = []
-let passwordLenght = 8
 let passwordOneEl = document.getElementById("password-one")
 let passwordTwoEl = document.getElementById("password-two")
 let passwordThreeEl = document.getElementById("password-three")
